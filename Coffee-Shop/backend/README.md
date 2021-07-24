@@ -10,7 +10,7 @@ Follow instructions to install the latest version of **Python** for your platfor
 
 #### Virtual Environment
 
-It is recommended to work within a virtual environment. This keeps the dependencies for each project separate and organized. Instructions for setting up a virual environment for your platform can be found in the [python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+It is recommended to work within a virtual environment. This keeps the dependencies for each project separate and organized. Instructions for setting up a virual environment for your platform can be found in the [Python docs](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 #### PIP Dependencies
 
