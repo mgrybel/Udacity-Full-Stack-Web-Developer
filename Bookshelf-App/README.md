@@ -24,7 +24,9 @@ The application is run on `http://127.0.0.1:5000/` by default.
 
 ### Tests
 To run tests, navigate to the `backend` folder and run the following command: <br>
-`python test_flaskr.py`
+```bash
+python test_flaskr.py
+```
 
 All tests are kept in that file and should be maintained as updates are made to the app functionality.
 
