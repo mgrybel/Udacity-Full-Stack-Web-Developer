@@ -6,7 +6,7 @@ All backend code follows [PEP8 style guidelines](https://www.python.org/dev/peps
 ## Getting Started
 
 ### Pre-requisites and Local Development
-Developers using this project should already have Python 3 and pip installed.
+Developers using this project should already have **Python 3** and **pip** installed.
 
 ### Backend
 From the backend folder run `pip install -r requirements.txt`. All required packages are included in the requirements file.
