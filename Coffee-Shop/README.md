@@ -15,6 +15,6 @@ The `./backend` directory contains a **Flask** server with a **SQLAlchemy** modu
 
 ### Frontend
 
-The `./frontend` directory contains a complete **Ionic** frontend to consume the data from the **Flask** server. The environment variables found within (`./frontend/src/environment/environment.ts`) reflect the **Auth0** configuration details set up for the backend app. 
+The `./frontend` directory contains a complete **Ionic** frontend to consume the data from the **Flask** server. The environment variables found within `./frontend/src/environment/environment.ts` reflect the **Auth0** configuration details set up for the backend app. 
 
 [View the README.md within ./frontend for more details.](./frontend/README.md)
