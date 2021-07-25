@@ -28,7 +28,7 @@ This will install all the required packages selected within the `requirements.tx
 
 - [SQLAlchemy](https://www.sqlalchemy.org/) and [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) are libraries to handle the lightweight **SQLite** database.
 
-- [jose](https://python-jose.readthedocs.io/en/latest/) JavaScript Object Signing and Encryption for **JSON Web Tokens** (JWTs). Useful for encoding, decoding, and verifying the JWTs.
+- [JOSE](https://python-jose.readthedocs.io/en/latest/) - JavaScript Object Signing and Encryption (JOSE) for **JSON Web Tokens** (JWTs). Useful for encoding, decoding, and verifying the JWTs.
 
 ## Running the server
 
@@ -52,7 +52,7 @@ The `--reload` flag will detect the file changes and restart the server automati
 
 ### Setup Auth0
 
-1. Created a new Auth0 Account.
+1. Created a new **Auth0** Account.
 2. Selected a unique tenant domain.
 3. Created a new, single page web application.
 4. Created a new API.
