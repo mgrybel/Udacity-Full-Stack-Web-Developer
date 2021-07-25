@@ -1,5 +1,5 @@
 # Bookshelf App
-This project is a virtual bookshelf. Users can add their books to the bookshelf, rate books, update the ratings and search through their book list. 
+This project is a virtual bookshelf. Users can add books to the bookshelf, rate books, update the ratings and search through their book collection. 
 
 All backend code follows [PEP8 style guidelines](https://www.python.org/dev/peps/pep-0008/).
 
