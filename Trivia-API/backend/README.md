@@ -1,14 +1,12 @@
 # Trivia API Backend
 
-## Getting Started
+## Installing Dependencies
 
-### Installing Dependencies
-
-#### Python 3
+### Python 3
 
 Follow instructions to install the latest version of Python for your platform in the [Python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
-#### PIP Dependencies
+### PIP Dependencies
 
 Install dependencies by naviging to the `/backend` directory and running:
 
@@ -18,7 +16,7 @@ pip install -r requirements.txt
 
 This will install all of the required packages within the `requirements.txt` file.
 
-##### Key Dependencies
+### Key Dependencies
 
 - [Flask](http://flask.pocoo.org/)  is a lightweight backend microservices framework. Flask is required to handle requests and responses.
 
