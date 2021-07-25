@@ -5,7 +5,7 @@ All backend code follows [PEP8 style guidelines](https://www.python.org/dev/peps
 
 ## Getting Started
 
-### Pre-requisites and Local Development
+### Prerequisites and Local Development
 Developers using this project should already have **Python 3** and **pip** installed.
 
 ### Backend
@@ -33,8 +33,8 @@ All tests are kept in that file and should be maintained as updates are made to 
 ## API Reference
 
 ### Getting Started
-- Base URL: at present, this app can only run locally and is not hosted as a base URL. The backend app is hosted at the default, `http://127.0.0.1:5000/`
-- Authentication: this version of the application does not require authentication or API keys.
+- **Base URL**: at present, this app can only run locally and is not hosted as a base URL. The backend app is hosted at the default, `http://127.0.0.1:5000/`
+- **Authentication**: this version of the application does not require authentication or API keys.
 
 ### Error Handling
 Errors are returned as JSON objects in the following format:
