@@ -4,7 +4,7 @@
 
 ### Python 3
 
-Follow instructions to install the latest version of Python for your platform in the [Python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
+Follow instructions to install the latest version of **Python** for your platform in the [Python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
 ### PIP Dependencies
 
@@ -26,7 +26,7 @@ This will install all of the required packages within the `requirements.txt` fil
 
 ## Database Setup
 
-With PostgreSQL running, restore a database using the trivia.psql file provided. From the `backend` directory in terminal run:
+With **PostgreSQL** running, restore a database using the trivia.psql file provided. From the `backend` directory in terminal run:
 
 ```bash
 psql trivia < trivia.psql
