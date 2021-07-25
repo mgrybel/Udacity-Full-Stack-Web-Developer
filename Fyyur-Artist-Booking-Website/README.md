@@ -55,7 +55,7 @@ Highlight folders:
 
 ### Development Setup
 
-First, [install Flask](http://flask.pocoo.org/docs/1.0/installation/#install-flask) if you haven't already.
+First, [install Flask](http://flask.pocoo.org/docs/1.0/installation/#install-flask)
 
   ```bash
   $ cd ~
