@@ -13,7 +13,7 @@ The tech stack includes the following:
 * **PostgreSQL** - the database
 * **Python3** and **Flask** - the server language and server framework
 * **Flask-Migrate** - for creating and running schema migrations
-* **HTML**, **CSS**, and **Javascript** with **Bootstrap** for the website's frontend
+* **HTML**, **CSS**, **Javascript** and **Bootstrap** - for the website's frontend
 
 ### Main Files: Project Structure
 
@@ -46,12 +46,12 @@ Overall:
 
 
 Highlight folders:
-* `templates/pages` -- Defines the pages that are rendered to the site. These templates render views based on data passed into the template’s view, in the controllers defined in `app.py`. These pages successfully represent the data to the user.
-* `templates/layouts` -- Defines the layout that a page can be contained in to define footer and header code for a given page.
-* `templates/forms` -- Defines the forms used to create new artists, shows, and venues.
-* `app.py` -- Defines routes that match the user’s URL, and controllers which handle data and renders views to the user. This is the main file to connect to and manipulate the database and render views with data to the user, based on the URL.
-* Models in `app.py` -- Defines the data models that set up the database tables.
-* `config.py` -- Stores configuration variables and instructions, separate from the main application code (including connection to the database).
+* `templates/pages` - Defines the pages that are rendered to the site. These templates render views based on data passed into the template’s view, in the controllers defined in `app.py`. These pages successfully represent the data to the user.
+* `templates/layouts` - Defines the layout that a page can be contained in to define footer and header code for a given page.
+* `templates/forms` - Defines the forms used to create new artists, shows, and venues.
+* `app.py` - Defines routes that match the user’s URL, and controllers which handle data and renders views to the user. This is the main file to connect to and manipulate the database and render views with data to the user, based on the URL.
+* Models in `app.py` - Defines the data models that set up the database tables.
+* `config.py` - Stores configuration variables and instructions, separate from the main application code (including connection to the database).
 
 ### Development Setup
 
