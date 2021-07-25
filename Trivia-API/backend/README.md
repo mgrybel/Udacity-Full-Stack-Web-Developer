@@ -51,7 +51,7 @@ Setting the `FLASK_APP` variable to `flaskr` directs Flask to use the `flaskr` d
 ### Error Handling
 Errors are returned as JSON objects in the following format:
 
-```
+```json
 {
     "success": False,
     "error": 400,
@@ -72,7 +72,7 @@ The API will return four error types when requests fail:
 - Returns a list of question objects, the success value, the total number of questions, all categories and the current category.
 - Sample: `curl http://127.0.0.1:5000/questions`
 
-```
+```json
 {
   "categories": {
     "1": "Science", 
@@ -166,7 +166,7 @@ The API will return four error types when requests fail:
 - Returns a list of category objects, the success value, and the total number of categories.
 - Sample: `curl http://127.0.0.1:5000/categories`
 
-```
+```json
 {
   "categories": {
     "1": "Science", 
@@ -189,7 +189,7 @@ The API will return four error types when requests fail:
 - Returns a list of questions based on category, the success value, the total number of questions and the current category.
 - Sample: `curl http://127.0.0.1:5000/categories/6/questions`
 
-```
+```json
 {
   "current_category": "Sports", 
   "questions": [
@@ -219,7 +219,7 @@ The API will return four error types when requests fail:
 - Returns the id of the deleted question, the success value, the total number of questions, and the question list based on the current page number to update the frontend. 
 - Sample: `curl -X DELETE http://127.0.0.1:5000/questions/36?page=3`
 
-```
+```json
 {
   "deleted": 36, 
   "questions": [
@@ -242,7 +242,7 @@ The API will return four error types when requests fail:
 - Returns the id of the created question, the success value, the total number of questions, and the question list based on the current page number to update the frontend.
 - Sample: `curl http://127.0.0.1:5000/questions?page=3 -X POST -H "Content-Type: application/json" -d '{"question":"Who played the Joker character in the Dark Knight movie?", "answer":"Heath Ledger", "category":"5", "difficulty":"3"}'`
 
-```
+```json
 {
   "created": 37, 
   "questions": [
@@ -272,7 +272,7 @@ The API will return four error types when requests fail:
 - Returns questions that match the search term, the success value and the total number of questions.    
 - Sample: `curl http://127.0.0.1:5000/questions/search -X POST -H "Content-Type: application/json" -d '{"searchTerm":"Tom Hanks"}'`
 
-```
+```json
 {
   "questions": [
     {
@@ -294,7 +294,7 @@ The API will return four error types when requests fail:
 - Returns a random questions within the given category, if provided (not one of the previous questions) and the success value.
 - Sample: `curl http://127.0.0.1:5000/quizzes -X POST -H "Content-Type: application/json" -d '{"previous_questions":[],"quiz_category":{"type":"click","id":0}}'`
 
-```
+```json
 {
   "question": {
     "answer": "The Palace of Versailles", 
@@ -310,7 +310,7 @@ The API will return four error types when requests fail:
 ## Testing
 To run the tests, execute:
 
-```
+```bash
 dropdb trivia_test
 createdb trivia_test
 psql trivia_test < trivia.psql
