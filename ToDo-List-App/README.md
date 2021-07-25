@@ -1,7 +1,7 @@
 ToDo List App
 -----
 
-This ToDo List app is written in Python with Flask and SQLAlchemy.
+This ToDo List app is written in **Python** with **Flask** and **SQLAlchemy**.
 
 ## A. Dependency
 In order to run this app, the following dependencies must have been already installed:
@@ -29,4 +29,4 @@ You can insert a few rows in both the tables. Insert first in the `todolists` re
 * `source env/bin/activate` to activate the venv
 * `python -m pip install -r requirements.txt` to install dependencies. For Mac users, if you face difficulty in installing the `psycopg2`, you may consider intalling the `sudo brew install libpq` before running the `requirement.txt`. 
 * `python3 app.py` to run the app (http://127.0.0.1:5000/ or http://localhost:5000)
-* `deactivate` to de-activate the virtual environment
+* `deactivate` to deactivate the virtual environment
