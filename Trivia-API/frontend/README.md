@@ -2,13 +2,13 @@
 
 ## Getting Setup
 
-> _tip_: this React frontend is designed to work with [Flask-based backend](../backend).
+> _tip_: this **React** frontend is designed to work with [Flask-based backend](../backend).
 
 ### Installing Dependencies
 
 #### Installing Node and NPM
 
-This project depends on Node.js and Node Package Manager (NPM). Before continuing, you must download and install Node (the download includes NPM) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
+This project depends on **Node.js** and **Node Package Manager** (**NPM**). Before continuing, you must download and install Node (the download includes NPM) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
 
 #### Installing project dependencies
 
