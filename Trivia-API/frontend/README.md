@@ -20,7 +20,7 @@ npm install
 
 ## Running the Frontend in Dev Mode
 
-The frontend app was built using `create-react-app`. In order to run the app in development mode, run:
+The frontend app was built using `create-react-app`. In order to run the app in development mode, use:
 
 ```bash
 npm start
