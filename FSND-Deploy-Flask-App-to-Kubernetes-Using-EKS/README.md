@@ -2,7 +2,7 @@
 
 This is the project repository for the fourth course in the **Udacity Full Stack Web Developer Nanodegree**: Server Deployment, Containerization, and Testing.
 
-In this project, I containerized and deployed a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.
+In this project, I containerized and deployed a **Flask API** to a **Kubernetes** cluster using **Docker**, **AWS EKS**, **CodePipeline**, and **CodeBuild**.
 
 The Flask app used for this project consists of a simple API with three endpoints:
 
@@ -14,10 +14,10 @@ The app relies on a secret set as the environment variable `JWT_SECRET` to produ
 
 ### Dependencies
 
-- Docker Engine
+- **Docker Engine**
     - Installation instructions for all operating systems can be found [here](https://docs.docker.com/install/).
     - For Mac users, if you have no previous Docker Toolbox installation, you can install Docker Desktop for Mac. If you already have a Docker Toolbox installation, please read [this](https://docs.docker.com/docker-for-mac/docker-toolbox/) before installing.
- - AWS Account
+ - **AWS Account**
      - You can create an AWS account by signing up [here](https://aws.amazon.com/#).
      
 ### Project Steps
