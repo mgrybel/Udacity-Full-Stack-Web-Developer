@@ -8,7 +8,7 @@
 
 #### Installing Node and NPM
 
-This project depends on the **Node.js** and **Node Package Manager** (**NPM**). Before continuing, you must download and install **Node** (the download includes NPM) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
+This project depends on the **Node.js** and **Node Package Manager** (**NPM**). Before continuing, you must download and install Node (the download includes NPM) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
 
 #### Installing Ionic CLI
 
@@ -34,7 +34,7 @@ npm install
 
 ## Running the Frontend in Dev Mode
 
-**Ionic** ships with a useful development server which detects changes and transpiles the work. The application is then accessible through the browser on a localhost port. To run the development server, `cd` into the `frontend` directory and run:
+**Ionic** ships with a development server which detects changes and transpiles the work. The application is then accessible through the browser on a localhost port. To run the development server, `cd` into the `frontend` directory and run:
 
 ```bash
 ionic serve
