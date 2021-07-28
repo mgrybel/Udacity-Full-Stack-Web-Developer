@@ -1,9 +1,8 @@
-ToDo List App
------
+# ToDo List App
 
 This ToDo List app is written in **Python** with **Flask** and **SQLAlchemy**.
 
-## A. Dependency
+### Dependencies
 To run this app, the following dependencies must be already installed:
 1. **PostgreSQL** 
     * Start manually: `pg_ctl -D /usr/local/var/postgres start`
@@ -11,7 +10,7 @@ To run this app, the following dependencies must be already installed:
  
 2. **Flask**
 
-## B. Database 
+### Database 
 The database relations `todos(id, description, complete, list_id)` and `todolists(id, name)` must have been already created in PostgreSQL. It is assumed that the PostgreSQL is running on default port 5432.
 
 * `dropdb todoapp -p 5432 && createdb todoapp -p 5432` 
@@ -24,7 +23,7 @@ The database relations `todos(id, description, complete, list_id)` and `todolist
 Insert first in the `todolists` relation. 
 
 
-## C. Steps to Run the App: 
+### Steps to Run the App: 
 * `python3 -m venv env` to set the virtual environment for Python 
 * `source env/bin/activate` to activate the venv
 * `python -m pip install -r requirements.txt` to install dependencies. For Mac users, if you face difficulty in installing the `psycopg2`, you may consider intalling the `sudo brew install libpq` before running the `requirement.txt`. 
