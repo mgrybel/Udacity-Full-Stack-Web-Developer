@@ -18,7 +18,7 @@ The database relations `todos(id, description, complete, list_id)` and `todolist
 * Open the database prompt - `psql -p 5432`
 * Connect to the database - `\c todoapp` 
 * Display the tables in the database `\dt` 
-* Display the schema of the 'todos' table `\d todos` 
+* Display the schema of the `todos` table `\d todos` 
 * Display the schema of the 'todolists' table `\d todolists` 
 
 Insert first in the `todolists` relation. 
