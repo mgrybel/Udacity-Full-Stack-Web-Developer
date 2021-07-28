@@ -21,7 +21,7 @@ The database relations `todos(id, description, complete, list_id)` and `todolist
 * Display the schema of the 'todos' table `\d todos` 
 * Display the schema of the 'todolists' table `\d todolists` 
 
-You can insert a few rows in both the tables. Insert first in the `todolists` relation. 
+Insert first in the `todolists` relation. 
 
 
 ## C. Steps to Run the App: 
