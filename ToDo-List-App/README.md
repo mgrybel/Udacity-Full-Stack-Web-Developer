@@ -4,7 +4,7 @@ ToDo List App
 This ToDo List app is written in **Python** with **Flask** and **SQLAlchemy**.
 
 ## A. Dependency
-In order to run this app, the following dependencies must have been already installed:
+To run this app, the following dependencies must be already installed:
 1. **PostgreSQL** 
     * Start manually: `pg_ctl -D /usr/local/var/postgres start`
     * Stop manually: `pg_ctl -D /usr/local/var/postgres stop -s -m fast`
