@@ -1,6 +1,6 @@
 # ToDo App
 
-This ToDo List app is written in **Python** with **Flask** and **SQLAlchemy**.
+This ToDo app is written in **Python** with **Flask** and **SQLAlchemy**.
 
 ### Dependencies
 
